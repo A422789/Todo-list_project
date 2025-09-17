@@ -1,0 +1,37 @@
+
+.todo{
+  width: 100%;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 80vh;
+  height: 100%;
+   background-color: white;
+}
+.todo input{
+  width: 70%;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 25px;
+  border: none;
+  background-color: #eee;
+  
+}
+.todo button{
+   padding: 10px;
+   border-radius: 25px;
+     font-size: 15px;
+   border: 1px none;
+   background-color: rgb(255, 106, 0);
+   color: white;
+   font-weight:bold;
+   position: relative;
+   right: 40px;
+}
+.todo button:hover{
+  cursor: pointer;
+  opacity: .7;
+}
+img:hover{
+  cursor: pointer;
+}
