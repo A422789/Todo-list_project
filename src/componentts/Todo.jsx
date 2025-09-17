@@ -18,7 +18,11 @@ const Todo = () => {
     ]
     const[Task,setTask]=useState(()=>{
       const SavedTask=localStorage.getItem('Task')
-      return JSON.parse(SavedTask)
+      if(SavedTask){
+        return JSON.parse(SavedTask)
+      }else{
+        return []
+      }
     });
    useEffect(()=>{
      localStorage.setItem('Task',JSON.stringify(Task))
